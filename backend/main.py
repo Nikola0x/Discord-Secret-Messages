@@ -135,7 +135,7 @@ async def on_ready():
 
 @bot.command(name="viewadd")
 async def viewadd(ctx, category: Optional[str] = None, *, message: str):
-    """Dodaje skrivenu poruku s opcionalnom kategorijom."""
+   
     try:
         await ctx.message.delete()
     except Exception as e:
